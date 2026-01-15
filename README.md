@@ -1,4 +1,4 @@
-# flower-diffusion-model
+# Flower diffusion model
 A custom implementation of a Denoising Diffusion Probabilistic Model (DDPM) in PyTorch, trained on the Oxford Flowers 102 dataset to generate synthetic images.
 
 ## Technologies
@@ -30,5 +30,5 @@ The core capability is sampling from pure noise and iteratively denoising it to 
 **Progress of Generation (Epoch 100):**
 The image below is a demonstration of the models ability to generate images from pure noise into a flower structure.
 
-![Diffusion Process](./generated_images/plot_epoch_100/.png)
+![Diffusion Process](./generated_images/plot_epoch_100.png)
 *(Denoising process: From pure noise on the right to a generated flower on the left)*
